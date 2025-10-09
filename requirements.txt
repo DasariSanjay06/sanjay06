@@ -1,0 +1,33 @@
+# Malware Detection System Requirements
+
+# Core dependencies (already in standard library)
+# - re (regular expressions)
+# - hashlib (file hashing)
+# - os (file operations)
+# - json (data serialization)
+# - logging (logging system)
+# - datetime (timestamps)
+# - typing (type hints)
+# - enum (enumerations)
+# - dataclasses (data structures)
+# - ast (abstract syntax tree)
+# - subprocess (safe code execution)
+# - sys (system operations)
+
+# Optional dependencies for enhanced features
+# Uncomment if you want to use these features:
+
+# For enhanced keylogger detection (optional)
+# pynput==1.7.6
+
+# For encryption/decryption detection (optional)
+# cryptography==41.0.7
+
+# For network analysis (optional)
+# scapy==2.5.0
+
+# For web requests (used in examples)
+# requests==2.31.0
+
+# Note: The core malware detection system works without any external dependencies
+# using only Python's standard library
