@@ -1,0 +1,15 @@
+- id: sample-literal
+  type: literal
+  description: Detects the text 'MALICIOUS_SAMPLE'
+  pattern: MALICIOUS_SAMPLE
+
+- id: suspicious-regex
+  type: regex
+  description: Example regex looking for 'exec\(' call
+  pattern: exec\(
+  flags: i
+
+# - id: exact-hash
+#   type: sha256
+#   description: Exact hash match of a known bad file
+#   sha256: 0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef
